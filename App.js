@@ -90,6 +90,11 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
   
+     {/* This Appbar is used from react-native-paper.
+     for used react-native-paper components, 
+     we need to install react-native-paper dependencies by using following commands.
+     sudo npm install react-native-paper */}
+
          <Appbar.Header>
           <Appbar.Content
             title="To Do List"
